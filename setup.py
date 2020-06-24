@@ -15,11 +15,10 @@
 """Setup file for django-closuretree."""
 from setuptools import setup, find_packages
 
-from closuretree.version import __VERSION__
 
 setup(
     name='django-closuretree',
-    version=__VERSION__,
+    version='2.0',
     packages=find_packages(),
     author='Mike Bryant',
     author_email='mike.bryant@ocado.com',
